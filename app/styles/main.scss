@@ -17,6 +17,10 @@ body {
   padding-bottom: 20px;
 }
 
+img {
+  width: 80%;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -90,4 +94,98 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.front {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  bottom: 40%;
+  font-family: 'Lato', sans-serif;
+}
+
+.wrap-leader {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+    .lim {
+      text-color: rgb(55, 255, 255);
+      padding: 0.5em;
+      width: 35%;
+      height: 4em;
+      border-bottom: 1px solid black;
+      float: left;
+      margin: 0.5em;
+    }
+}
+
+.button {
+	/*Step 2: Basic Button Styles*/
+	display: block;
+	height: 100px;
+	width: 300px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+
+	/*Step 3: Text Styles*/
+  text-decoration: none;
+	color: rgba(0, 0, 0, 0.55);
+	text-align: center;
+  font-size: 4em;
+}
+
+.button:link {
+  background-color: white;
+
+}
+.button:visited {
+  background-color: white;
+
+}
+.button:hover {
+  background-color: #111119;
+  text-decoration: none;
+  color: white;
+}
+
+
+.button-design {
+	/*Step 2: Basic Button Styles*/
+	display: block;
+	height: 100px;
+	width: 300px;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+
+	/*Step 3: Text Styles*/
+  text-decoration: none;
+	color: rgba(0, 0, 0, 0.55);
+	text-align: center;
+  font-size: 2em;
+
+  @media (max-width: 600px) {
+    height: 100px;
+    width: 150px;
+  }
+
+}
+
+.button-design:link {
+  background-color: white;
+  text-decoration: none;
+
+
+}
+.button-design:visited {
+  background-color: white;
+  text-decoration: none;
+
+
+}
+.bbutton-design:hover {
+  background-color: #111119;
+  text-decoration: none;
+  color: white;
 }
